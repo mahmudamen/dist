@@ -1,0 +1,3 @@
+
+[upload_appveyor_builds]
+twine==1.11.0

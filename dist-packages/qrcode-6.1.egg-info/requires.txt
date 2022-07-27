@@ -1,0 +1,23 @@
+
+[:platform_system == "Windows"]
+colorama
+
+[dev]
+pytest
+tox
+
+[dev:python_version < "3"]
+mock
+
+[maintainer]
+zest.releaser[recommended]
+
+[pil]
+pillow
+
+[test]
+pytest
+pytest-cov
+
+[test:python_version < "3"]
+mock

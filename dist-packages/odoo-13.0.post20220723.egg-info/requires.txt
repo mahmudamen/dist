@@ -1,0 +1,7 @@
+xlwt
+
+[SSL]
+pyopenssl
+
+[ldap]
+python-ldap
